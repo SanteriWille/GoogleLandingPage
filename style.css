@@ -1,0 +1,135 @@
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.meny{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meny *{
+    padding: 5px 10px;
+}
+
+.iconMeny{
+    width: 28px;
+}
+
+.sign-in{
+    background-color: rgb(60, 159, 221);
+    color: white;
+    border-radius: 2px;
+    border: none;
+    align-items: center;
+    padding: 8px;
+    width: 80px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container3 .searchbox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.container3 .searchbox .inputTekst{
+    border: 1px solid #ccc;
+    width: 50%;
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.container3 .searchbox .icons {
+    position: absolute;
+    top: 0;
+    width: 55%;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+
+.fsg {
+    width: 30px;
+}
+
+.mic {
+    width: 15px;
+}
+
+
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+button{
+    background: rgb(231, 229, 229);
+    color: rgb(39, 37, 37);
+    border-radius: 5px;
+    border: none;
+    padding: 12px;
+    width: 150px;
+}
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(231, 229, 229);
+    color: rgb(24, 23, 23);
+    
+}
+
+.footer .row {
+    /*padding: 15px 25px;*/
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    padding-left: 15px;
+}
+
+.footer .row.row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .row.row2 ul {
+    display: flex;
+}
+
+.footer .row.row2 ul li {
+    list-style: none;
+    font-size: 14px;
+    margin-right: 25px;
+}
